@@ -7,4 +7,6 @@ Enjoy the minty flavored goodness!
 
 Based on Noah Frederick's amazing macOS terminal theme: https://noahfrederick.com/log/lion-terminal-theme-peppermint
 
-![screenshot](https://github.com/eshanmind/peppermint-syntax/blob/master/peppermint-screenshot.png)
+![screenshot](https://raw.github.com/eshanmind/peppermint-syntax/master/peppermint-screenshot.png)
+
+
