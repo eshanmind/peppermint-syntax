@@ -5,4 +5,6 @@ born out of a desperation of wanting the Peppermint terminal theme here on atom.
 Specifically designed for scripting languages.
 Enjoy the minty flavored goodness!
 
+Based on Noah Frederick's amazing macOS terminal theme: https://noahfrederick.com/log/lion-terminal-theme-peppermint
+
 ![screenshot](https://github.com/eshanmind/peppermint-syntax/blob/master/peppermint-screenshot.png)
