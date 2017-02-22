@@ -10,3 +10,4 @@ Based on Noah Frederick's amazing macOS terminal theme: https://noahfrederick.co
 ![screenshot](https://raw.github.com/eshanmind/peppermint-syntax/master/peppermint-screenshot.png)
 
 
+![screenshot](https://raw.github.com/eshanmind/peppermint-syntax/master/peppermint-screenshot2.png)
