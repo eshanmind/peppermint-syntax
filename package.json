@@ -1,7 +1,7 @@
 {
   "name": "peppermint-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A dark, cold and mint flavoured theme that's bright and still easy on the eyes. Based on Noah Frederick's Peppermint macOS terminal theme.[noahfrederick.com/log/lion-terminal-theme-peppermint]",
   "keywords": [
     "syntax",
