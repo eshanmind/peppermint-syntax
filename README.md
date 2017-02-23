@@ -16,7 +16,7 @@ https://raw.github.com/eshanmind/peppermint-syntax/master/peppermint-screenshot-
 
 ![screenshot](https://github.com/eshanmind/peppermint-syntax/blob/master/peppermint-syntax-py.png?raw=true)
 
-![screenshot](https://raw.github.com/eshanmind/peppermint-syntax/master/peppermint-screenshot-js.png)
+![screenshot](https://github.com/eshanmind/peppermint-syntax/blob/master/peppermint-syntax-js.png?raw=true)
 
 ![screenshot](https://raw.github.com/eshanmind/peppermint-syntax/master/peppermintComments.gif)
 
