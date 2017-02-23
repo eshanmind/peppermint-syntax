@@ -85,7 +85,7 @@ atom-text-editor .search-results .marker.current-result .region {
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blueish;
+    color: @blueish-bright;
   }
 
   &.syntax--other.syntax--unit {
@@ -206,7 +206,6 @@ atom-text-editor .search-results .marker.current-result .region {
   }
   &.syntax--name.syntax--type {
     color: @yellowish-bright;
-    text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
@@ -222,7 +221,6 @@ atom-text-editor .search-results .marker.current-result .region {
 
   &.syntax--name.syntax--tag {
     color: @purplish;
-    text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
@@ -313,4 +311,15 @@ atom-text-editor .search-results .marker.current-result .region {
 
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
+}
+//js fixing some wierd stuff
+atom-text-editor::shadow {
+    .variable.other.object.js { color: @teal-bright; }
+    .variable.other.property.js { color: @greenish-bright; }
+    .meta.method-call.js {
+        > .entity.name.function.js { color: darken(@grayish,10%); }
+    }
+    .meta.function-call.js {
+        > .entity.name.function.js { color: @pinkish-bright; }
+    }
 }
