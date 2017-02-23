@@ -64,8 +64,14 @@ atom-text-editor .search-results .marker.current-result .region {
 // Syntax styles
 
 .syntax--comment {
-  color: @pinkish-bright;
+  color: lighten(@syntax-background-color,30%);
+  transition-duration:1s;
 }
+
+.syntax--comment:hover{
+  color: @pinkish;
+}
+
 
 .syntax--keyword {
   color: @purplish-bright;
@@ -112,10 +118,10 @@ atom-text-editor .search-results .marker.current-result .region {
 }
 
 .syntax--variable {
-  color: @pinkish-bright;
+  color: @pinkish;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: darken(@teal-bright, 20%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -124,7 +130,7 @@ atom-text-editor .search-results .marker.current-result .region {
 }
 
 .syntax--invalid.syntax--illegal {
-  background-color: @red;
+  background-color: @teal-bright;
   color: @syntax-background-color;
 }
 
@@ -133,7 +139,7 @@ atom-text-editor .search-results .marker.current-result .region {
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @greenish-bright;
 
     .syntax--source.syntax--ruby.syntax--embedded {
       color: @orange;
@@ -141,7 +147,7 @@ atom-text-editor .search-results .marker.current-result .region {
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color:@blueish-bright;
   }
 }
 
@@ -175,7 +181,7 @@ atom-text-editor .search-results .marker.current-result .region {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: darken(@teal-bright, 10%);
   }
 
 }
@@ -199,7 +205,7 @@ atom-text-editor .search-results .marker.current-result .region {
     color: @blueish;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
+    color: @yellowish-bright;
     text-decoration: underline;
   }
 
@@ -207,30 +213,30 @@ atom-text-editor .search-results .marker.current-result .region {
     color: @greenish;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @yellowish;
   }
 
   &.syntax--name.syntax--section {
-    color: @blue;
+    color: @blueish;
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @purplish;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @pinkish;
 
     &.syntax--id {
-      color: @blue;
+      color: @blueish-bright;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: @yellowish-bright;
   }
 
   &.syntax--link {
@@ -238,7 +244,7 @@ atom-text-editor .search-results .marker.current-result .region {
   }
 
   &.syntax--require {
-    color: @blue;
+    color: @blueish-bright;
   }
 
   &.syntax--selector {
@@ -266,7 +272,7 @@ atom-text-editor .search-results .marker.current-result .region {
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @teal-bright;
   }
 
   &.syntax--italic {
@@ -279,11 +285,11 @@ atom-text-editor .search-results .marker.current-result .region {
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @greenish;
   }
 
   &.syntax--list {
-    color: @red;
+    color: @teal-bright;
   }
 
   &.syntax--quote {
